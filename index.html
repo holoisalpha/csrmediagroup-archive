@@ -1,0 +1,1665 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> 
+<html class="no-js" lang="en-US"> <!--<![endif]-->
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://www.csrmediagroup.com/","20220702054929","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1656740969");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:700,400|Crimson+Text|Raleway:400,600|Source+Sans+Pro:400&subset=latin" rel="stylesheet">
+<style>
+/* Original theme options CSS from csrmediagroup.com */
+body {
+    background-color: rgb(255,255,255);background-color: rgba(255,255,255,1);}
+.layout-box #header-inner-wrap, 
+#header-inner-wrap,
+body.header-transparent #header #header-inner-wrap.no-transparent,
+.left-header .sb-slidebar.sb-left
+{
+    background-color: rgb(242,243,248);background-color: rgba(242,243,248,1);}
+#mobile-menu, 
+#mobile-menu ul {
+    background-color: rgb(255,255,255);background-color: rgba(255,255,255,1);}
+
+body.header-transparent #header-inner-wrap{
+  background: transparent;
+}
+#header .header-border{
+ border-bottom: 0 none ;
+}
+#header-top-bar{
+    background-color: rgb(50,50,50);background-color: rgba(50,50,50,0.85);    border-bottom: 0 none #9b9b9b;
+    color: #ffffff;
+}
+#header-top-bar #topbar-menu li a{
+    color: #ffffff;
+}
+#header-bottom-bar{
+    background-color: rgb(255,255,255);background-color: rgba(255,255,255,1);    border-top: 0 none #323232;
+    border-bottom: 0 none #323232;
+}
+body.header-transparent #header #header-inner-wrap {
+	-webkit-transition: background .25s ease, box-shadow .25s ease;
+	-moz-transition: background .25s ease, box-shadow .25s ease;
+	-o-transition: background .25s ease, box-shadow .25s ease;
+	transition: background .25s ease, box-shadow .25s ease;
+}
+body.header-transparent.semi .layout-wide #header  .semi-transparent ,
+body.header-transparent.semi .layout-border #header  .semi-transparent {
+  background-color: rgb(0,0,0);background-color: rgba(0,0,0,0.4);  !important ;
+}
+body.header-transparent.semi .layout-box #header  .semi-transparent #header-wrap{
+  background-color: rgb(0,0,0);background-color: rgba(0,0,0,0.4);  !important ;  
+}
+#content,
+#blog-content {
+    background-color: rgb(255,255,255);background-color: rgba(255,255,255,1);}
+#bottom-widgets {
+    background-color: rgb(242,243,248);background-color: rgba(242,243,248,1);}
+#footer {
+  background-color: rgb(255,255,255);background-color: rgba(255,255,255,1);}
+#footer .footer-border{
+  border-bottom: 0 none ;
+}
+.page-title-module-custom {
+	background-color: rgb(242,243,248);background-color: rgba(242,243,248,1);}
+#navigation .sub-menu,
+#navigation .children,
+#navigation-left-side .sub-menu,
+#navigation-left-side .children,
+#navigation-right-side .sub-menu,
+#navigation-right-side .children {
+  background-color: rgb(31,31,31);background-color: rgba(31,31,31,1);}
+.sb-slidebar.sb-right {
+  background-color: rgb(26,26,26);background-color: rgba(26,26,26,1);}
+.left-header .left-strip-wrapper,
+.left-header #left-header-mobile {
+  background-color : #f2f3f8 ;
+}
+.layout-box-top,
+.layout-box-bottom,
+.layout-box-right,
+.layout-box-left,
+.layout-border-header-top #header-inner-wrap,
+.layout-border-header-top.layout-box #header-inner-wrap, 
+body.header-transparent .layout-border-header-top #header #header-inner-wrap.no-transparent {
+  background-color: rgb(211,211,211);background-color: rgba(211,211,211,1);}
+
+.left-header.left-sliding.left-overlay-menu .sb-slidebar{
+  background-color: rgb(8,8,8);background-color: rgba(8,8,8,0.90);  
+}
+.top-header.top-overlay-menu .sb-slidebar{
+  background-color: rgb(26,26,26);background-color: rgba(26,26,26,1);}
+.search-box-wrapper{
+  background-color: rgb(255,255,255);background-color: rgba(255,255,255,0.85);}
+.search-box-wrapper.style1-header-search-widget input[type="text"]{
+  background-color: transparent !important;
+  color: #000000;
+  border: 1px solid  #000000;
+}
+.search-box-wrapper.style2-header-search-widget input[type="text"]{
+  background-color: transparent !important;
+  font-style: ;
+  font-weight: ;
+  font-family: Crimson Text;
+  color: #000000;
+  border: none !important;
+  box-shadow: none !important;
+}
+.search-box-wrapper .searchform .search-icon{
+  color: #000000;
+}
+#header-top-bar-right .search-box-wrapper.style1-header-search-widget input[type="text"]{
+  border: none; 
+}
+
+/* ======================
+    Typography
+   ====================== */
+body,
+.special-heading-wrap .caption-wrap .body-font {
+    font:  400 13px "Raleway","Open Sans","Arial",sans-serif; 
+  color: #5f6263;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-transform: none;    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+}
+h1 {
+	font:  700 55px "Montserrat","Open Sans","Arial",sans-serif; 
+  color: #222222;
+  line-height: 70px;
+  letter-spacing: .5px;
+  text-transform: none;}
+h2 {
+	font:  700 42px "Montserrat","Open Sans","Arial",sans-serif; 
+  color: #222222;
+  line-height: 63px;
+  letter-spacing: 0px;
+  text-transform: none;}
+h3 {
+  font:  700 35px "Montserrat","Open Sans","Arial",sans-serif; 
+  color: #222222;
+  line-height: 52px;
+  letter-spacing: 1px;
+  text-transform: none;}
+h4 {
+  font:  400 26px "Montserrat","Open Sans","Arial",sans-serif; 
+  color: #222222;
+  line-height: 42px;
+  letter-spacing: 1px;
+  text-transform: none;}
+h5, #reply-title {
+  font:  400 20px "Montserrat","Open Sans","Arial",sans-serif; 
+  color: #222222;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-transform: none;}
+h6,
+.testimonial-author-role.h6-font,
+.menu-card-title,
+.menu-card-item-price {
+  font:  400 15px "Montserrat","Open Sans","Arial",sans-serif; 
+  color: #222222;
+  line-height: 32px;
+  letter-spacing: .5px;
+  text-transform: none;}
+.gallery-side-heading {
+  font-size: 13px;
+}
+.special-subtitle , 
+.style1.thumb-title-wrap .portfolio-item-cats {
+  font-style: ;
+  font-size: 15px;
+  font-weight: ;
+  font-family: Crimson Text;
+  text-transform: none;
+  letter-spacing: 0px;
+}
+.top-right-sliding-menu .sb-right ul#slidebar-menu li,
+.overlay-menu-close {
+  font:  400 12px "Raleway","Open Sans","Arial",sans-serif; 
+  color: #ffffff;
+  line-height: 50px;
+  letter-spacing: 1px;
+  text-transform: uppercase;}
+.top-right-sliding-menu .sb-right ul#slidebar-menu li a{
+  color: #ffffff !important;
+}
+.top-right-sliding-menu .sb-right #slidebar-menu ul.sub-menu li{
+  font:  400 13px "Raleway","Open Sans","Arial",sans-serif; 
+  color: #ffffff;
+  line-height: 25px;
+  letter-spacing: ;
+  text-transform: none;}
+.top-right-sliding-menu .sb-right ul#slidebar-menu li a{
+  color: #ffffff !important;
+}
+.sb-right #slidebar-menu .mega .sub-menu .highlight .sf-with-ul{
+ font:  400 12px "Raleway","Open Sans","Arial",sans-serif; 
+  color: #ffffff;
+  line-height: 50px;
+  letter-spacing: 1px;
+  text-transform: uppercase;;
+ color: #ffffff !important;
+}
+
+#navigation,
+.style2 #navigation,
+#navigation-left-side,
+#navigation-right-side,
+.header-cart-controls .cart-contents,
+.sb-left  #slidebar-menu,
+#header-controls-right,
+#header-controls-left,
+body #header-inner-wrap.top-animate.style2 #navigation,
+.top-overlay-menu .sb-right  #slidebar-menu {
+    font:  400 12px "Montserrat","Open Sans","Arial",sans-serif; 
+  color: #acacac;
+  line-height: 51px;
+  letter-spacing: 1px;
+  text-transform: uppercase;}
+ul#mobile-menu a {
+    font:  400 12px "Montserrat","Open Sans","Arial",sans-serif; 
+  color: #acacac;
+  line-height: 40px;
+  letter-spacing: 1px;
+  text-transform: uppercase;}
+ul#mobile-menu ul.sub-menu a{
+    font:  400 13px "Raleway","Open Sans","Arial",sans-serif; 
+  color: #bbbbbb;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-transform: none; 
+}
+
+#navigation .sub-menu,
+#navigation .children,
+#navigation-left-side .sub-menu,
+#navigation-left-side .children,
+#navigation-right-side .sub-menu,
+#navigation-right-side .children,
+.sb-left  #slidebar-menu .sub-menu,
+.top-overlay-menu .sb-right  #slidebar-menu .sub-menu{
+  font:  400 13px "Raleway","Open Sans","Arial",sans-serif; 
+  color: #acacac;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-transform: none;}
+.thumb-title-wrap {
+  color: #ffffff;
+}
+.thumb-title-wrap .thumb-title{
+  font:  400 14px "Montserrat","Open Sans","Arial",sans-serif; 
+  color: ;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-transform: uppercase;}
+.thumb-title-wrap .portfolio-item-cats {
+  font-size: 12px;
+  line-height: 17px;
+  text-transform: none;
+  letter-spacing: 0;
+}
+.full-screen-portfolio-overlay-title {
+    font:  400 14px "Montserrat","Open Sans","Arial",sans-serif; 
+  color: ;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-transform: uppercase;}
+#footer {
+    font:  400 13px "Raleway","Open Sans","Arial",sans-serif; 
+  color: #888888;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-transform: none;}
+#bottom-widgets h6 {
+    font:  400 12px "Montserrat","Open Sans","Arial",sans-serif; 
+  color: #474747;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;    margin-bottom:20px;
+}
+#bottom-widgets {
+    font:  400 13px "Raleway","Open Sans","Arial",sans-serif; 
+  color: #757575;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-transform: none;}
+.sidebar-widgets h6 {
+   font:  400 12px "Montserrat","Open Sans","Arial",sans-serif; 
+  color: #333333;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;   margin-bottom:20px;
+}
+.sidebar-widgets {
+	font:  400 13px "Raleway","Open Sans","Arial",sans-serif; 
+  color: #606060;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-transform: none;}
+
+.sb-slidebar .widget {
+  font:  400 13px "Raleway","Open Sans","Arial",sans-serif; 
+  color: #a2a2a2;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-transform: none;}
+.sb-slidebar .widget h6 {
+  font:  400 12px "Montserrat","Open Sans","Arial",sans-serif; 
+  color: #ffffff;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: none;}
+.woocommerce ul.products li.product .product-meta-data h3, 
+.woocommerce-page ul.products li.product .product-meta-data h3,
+.woocommerce ul.products li.product h3, 
+.woocommerce-page ul.products li.product h3 {
+  font:  400 13px "Montserrat","Open Sans","Arial",sans-serif; 
+  color: #222222;
+  line-height: 27px;
+  letter-spacing: 1px;
+  text-transform: uppercase;}
+
+.related.products h2,
+.upsells.products h2,
+.cart-collaterals .cross-sells h2,
+.cart_totals h2, 
+.shipping_calculator h2,
+.woocommerce-billing-fields h3,
+.woocommerce-shipping-fields h3,
+.shipping_calculator h2,
+#order_review_heading,
+.woocommerce .page-title {
+  font-family: Montserrat;
+  font-weight: 400;
+}
+.woocommerce-page.single.single-product #content div.product h1.product_title.entry-title {
+  font:  400 25px "Montserrat","Open Sans","Arial",sans-serif; 
+  color: #222222;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-transform: none;}
+
+.woocommerce form .form-row label, .woocommerce-page form .form-row label {
+  color: #222222;
+}
+
+
+.contact_form_module input[type="text"], 
+.contact_form_module textarea {
+  font:  400 13px "Montserrat","Open Sans","Arial",sans-serif; 
+  color: #222222;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-transform: none;}
+#bottom-widgets .widget ul li a, #bottom-widgets a {
+	color: inherit;
+}
+a, a:visited, a:hover,
+#bottom-widgets .widget ul li a:hover, 
+#bottom-widgets a:hover,
+#navigation .current_page_item a,
+#navigation .current_page_item a:hover,
+#navigation a:hover,
+#navigation-left-side .current_page_item a,
+#navigation-left-side .current_page_item a:hover,
+#navigation-left-side a:hover,
+#navigation-right-side .current_page_item a,
+#navigation-right-side .current_page_item a:hover,
+#navigation-right-side a:hover {
+	color: #284387;
+}
+#navigation .current_page_item ul li a,
+#navigation-left-side .current_page_item ul li a,
+#navigation-right-side .current_page_item ul li a {
+  color: inherit;
+}
+
+.current-menu-item a {
+  color: #284387 !important;
+}
+.sb-left #slidebar-menu a:hover,
+.sb-left #slidebar-menu .current-menu-item a {
+  color: #284387 !important;
+}
+
+.page-title-module-custom .page-title-custom,
+h6.portfolio-title-nav{
+  font:  400 18px "Montserrat","Open Sans","Arial",sans-serif; 
+  color: #000000;
+  line-height: 36px;
+  letter-spacing: 3px;
+  text-transform: uppercase;}
+#portfolio-title-nav-wrap .portfolio-nav a {
+ color:   #d2d2d2; 
+}
+#portfolio-title-nav-wrap .portfolio-nav a:hover {
+ color:   #000000; 
+}
+
+.breadcrumbs {
+  color: #000000;
+}
+.page-title-module-custom .header-breadcrumb {
+  line-height: 36px;
+}
+
+#portfolio-title-nav-wrap{
+  background-color: #ededed;
+}
+a.custom-share-button, a.custom-share-button:active, a.custom-share-button:hover, a.custom-share-button:visited{
+  color: #222222 !important; 
+}
+.be-button,
+.woocommerce a.button, .woocommerce-page a.button, 
+.woocommerce button.button, .woocommerce-page button.button, 
+.woocommerce input.button, .woocommerce-page input.button, 
+.woocommerce #respond input#submit, .woocommerce-page #respond input#submit,
+.woocommerce #content input.button, .woocommerce-page #content input.button,
+input[type="submit"],
+.more-link.style2-button,
+.more-link.style3-button,
+input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button  {
+	font-family: Montserrat;
+  font-weight: ;
+}
+
+.more-link.style2-button {
+  color: #000000 !important;
+  border-color: #000000 !important;
+}
+
+.woocommerce a.button, .woocommerce-page a.button, 
+.woocommerce button.button, .woocommerce-page button.button, 
+.woocommerce input.button, .woocommerce-page input.button, 
+.woocommerce #respond input#submit, .woocommerce-page #respond input#submit,
+.woocommerce #content input.button, .woocommerce-page #content input.button {
+  background: transparent !important;
+  color: #000 !important;
+  border-color: #000 !important;
+  border-style: solid !important;
+  border-width: 2px !important;
+  background: transparent !important;
+  color: #000000 !important;
+  border-width: 2px !important;
+  border-color: #000000 !important;
+  line-height: 41px;
+  text-transform: uppercase;
+}
+.woocommerce a.button:hover, .woocommerce-page a.button:hover, 
+.woocommerce button.button:hover, .woocommerce-page button.button:hover, 
+.woocommerce input.button:hover, .woocommerce-page input.button:hover, 
+.woocommerce #respond input#submit:hover, .woocommerce-page #respond input#submit:hover,
+.woocommerce #content input.button:hover, .woocommerce-page #content input.button:hover {
+  background: #e0a240 !important;
+  color: #fff !important;
+  border-color: #e0a240 !important;
+  border-width: 2px !important;
+  background: #e0a240 !important;
+  color: #ffffff !important;
+  border-color: #e0a240 !important;
+
+}
+.woocommerce a.button.alt, .woocommerce-page a.button.alt, 
+.woocommerce .button.alt, .woocommerce-page .button.alt, 
+.woocommerce input.button.alt, .woocommerce-page input.button.alt,
+.woocommerce input[type="submit"].alt, .woocommerce-page input[type="submit"].alt, 
+.woocommerce #respond input#submit.alt, .woocommerce-page #respond input#submit.alt,
+.woocommerce #content input.button.alt, .woocommerce-page #content input.button.alt {
+  background: #e0a240 !important;
+  color: #fff !important;
+  border-color: #e0a240 !important;
+  border-style: solid !important;
+  border-width: 2px !important;
+  background: #e0a240 !important;
+  color: #ffffff !important;
+  border-width: 2px !important;
+  border-color: #e0a240 !important;
+  line-height: 41px;
+  text-transform: uppercase;
+}
+.woocommerce a.button.alt:hover, .woocommerce-page a.button.alt:hover, 
+.woocommerce .button.alt:hover, .woocommerce-page .button.alt:hover, 
+.woocommerce input[type="submit"].alt:hover, .woocommerce-page input[type="submit"].alt:hover, 
+.woocommerce input.button.alt:hover, .woocommerce-page input.button.alt:hover, 
+.woocommerce #respond input#submit.alt:hover, .woocommerce-page #respond input#submit.alt:hover,
+.woocommerce #content input.button.alt:hover, .woocommerce-page #content input.button.alt:hover {
+  background: transparent !important;
+  color: #000 !important;
+  border-color: #000 !important;
+  border-style: solid !important;
+  border-width: 2px !important;
+  background: transparent !important;
+  color: #000000 !important;
+  border-color: #000000 !important;
+}
+
+.post-title ,
+.post-date-wrap {
+  font:  400 20px "Montserrat","Open Sans","Arial",sans-serif; 
+  color: #000000;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-transform: none;  margin-bottom: 12px;
+}
+.style3-blog .post-title {
+  font:  400 16px "Source Sans Pro","Open Sans","Arial",sans-serif; 
+  color: #363c3b;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-transform: none;}
+
+.post-nav li{
+  font:   12px "Raleway","Open Sans","Arial",sans-serif; 
+  color: #757575;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-transform: uppercase;}
+
+.ui-tabs-anchor, 
+.accordion .accordion-head,
+.skill-wrap .skill_name,
+.chart-wrap span,
+.animate-number-wrap h6 span,
+.woocommerce-tabs .tabs li a,
+.be-countdown {
+    font-family: Raleway;
+    letter-spacing: 0px;
+    font-style: ;
+    font-weight: 600;
+}
+
+.woocommerce-tabs .tabs li a {
+  color: #222222 !important;
+}
+
+.ui-tabs-anchor{
+  font-size: 13px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+
+.accordion .accordion-head{
+  font-size: 13px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+
+.skill-wrap .skill_name{
+  font-size: 12px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+
+.countdown-section {
+  font-size: 15px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.countdown-amount {
+  font-size: 55px;
+  line-height: 95px;
+  text-transform: uppercase;
+}
+
+.flexslider.tweet-slides .tweet-content{
+  font-family: Raleway;
+  letter-spacing: 0px;
+  font-style: ;
+  font-weight: ;
+  text-transform: none;
+}
+
+.testimonial_slide .testimonial-content{
+  font-family: Crimson Text;
+  letter-spacing: 0px;
+  font-style: ;
+  font-weight: ;
+  text-transform: none;
+}
+#portfolio-title-nav-wrap{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+#portfolio-title-nav-bottom-wrap h6, 
+#portfolio-title-nav-bottom-wrap ul li a, 
+.single_portfolio_info_close {
+  background-color: rgb(255,255,255);background-color: rgba(255,255,255,0);}
+#portfolio-title-nav-bottom-wrap h6, 
+#portfolio-title-nav-bottom-wrap ul li a, 
+.single_portfolio_info_close .font-icon{
+  color:  #2b2b2b ;
+}
+#portfolio-title-nav-bottom-wrap h6:hover,
+#portfolio-title-nav-bottom-wrap ul li:hover a,
+.single_portfolio_info_close:hover {
+  background-color: rgb(235,73,73);background-color: rgba(235,73,73,0.85);}
+#portfolio-title-nav-bottom-wrap h6:hover,
+#portfolio-title-nav-bottom-wrap ul li:hover a,
+.single_portfolio_info_close:hover .font-icon{
+  color:  #ffffff ;
+}
+/* ======================
+    Layout 
+   ====================== */
+
+
+body #header-inner-wrap.top-animate #navigation, 
+body #header-inner-wrap.top-animate .header-controls, 
+body #header-inner-wrap.stuck #navigation, 
+body #header-inner-wrap.stuck .header-controls {
+	-webkit-transition: line-height 0.5s ease;
+	-moz-transition: line-height 0.5s ease;
+	-ms-transition: line-height 0.5s ease;
+	-o-transition: line-height 0.5s ease;
+	transition: line-height 0.5s ease;
+}
+	
+.header-cart-controls .cart-contents span{
+	background: #646464;
+}
+.header-cart-controls .cart-contents span{
+	color: #f5f5f5;
+}
+
+.left-sidebar-page,
+.right-sidebar-page, 
+.no-sidebar-page .be-section-pad:first-child, 
+.page-template-page-940-php #content , 
+.no-sidebar-page #content-wrap, 
+.portfolio-archives.no-sidebar-page #content-wrap {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}  
+.no-sidebar-page #content-wrap.page-builder{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.left-sidebar-page .be-section:first-child, 
+.right-sidebar-page .be-section:first-child, 
+.dual-sidebar-page .be-section:first-child {
+    padding-top: 0 !important;
+}
+
+
+.style1 .logo,
+.style4 .logo,
+#left-header-mobile .logo,
+.style3 .logo{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.style5 .logo{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+#footer-wrap {
+  padding-top: 25px;  
+  padding-bottom: 25px;  
+}
+
+/* ======================
+    Colors 
+   ====================== */
+
+
+.sec-bg,
+.gallery_content,
+.fixed-sidebar-page .fixed-sidebar,
+.style3-blog .blog-post.element .element-inner,
+.style4-blog .blog-post,
+.blog-post.format-link .element-inner,
+.blog-post.format-quote .element-inner,
+.woocommerce ul.products li.product, 
+.woocommerce-page ul.products li.product,
+.chosen-container.chosen-container-single .chosen-drop,
+.chosen-container.chosen-container-single .chosen-single,
+.chosen-container.chosen-container-active.chosen-with-drop .chosen-single {
+  background: #fafbfd;
+}
+.sec-color,
+.post-meta a,
+.pagination a, .pagination a:visited, .pagination span, .pages_list a,
+input[type="text"], input[type="email"], input[type="password"],
+textarea,
+.gallery_content,
+.fixed-sidebar-page .fixed-sidebar,
+.style3-blog .blog-post.element .element-inner,
+.style4-blog .blog-post,
+.blog-post.format-link .element-inner,
+.blog-post.format-quote .element-inner,
+.woocommerce ul.products li.product, 
+.woocommerce-page ul.products li.product,
+.chosen-container.chosen-container-single .chosen-drop,
+.chosen-container.chosen-container-single .chosen-single,
+.chosen-container.chosen-container-active.chosen-with-drop .chosen-single {
+  color: #7a7a7a;
+}
+
+.woocommerce .quantity .plus, .woocommerce .quantity .minus, .woocommerce #content .quantity .plus, .woocommerce #content .quantity .minus, .woocommerce-page .quantity .plus, .woocommerce-page .quantity .minus, .woocommerce-page #content .quantity .plus, .woocommerce-page #content .quantity .minus,
+.woocommerce .quantity input.qty, .woocommerce #content .quantity input.qty, .woocommerce-page .quantity input.qty, .woocommerce-page #content .quantity input.qty {
+  background: #fafbfd; 
+  color: #7a7a7a;
+  border-color: #eeeeee;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li, .woocommerce #content div.product .woocommerce-tabs ul.tabs li, .woocommerce-page div.product .woocommerce-tabs ul.tabs li, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li {
+  color: #7a7a7a!important;
+}
+
+.chosen-container .chosen-drop,
+nav.woocommerce-pagination,
+.summary.entry-summary .price,
+.portfolio-details.style2 .gallery-side-heading-wrap {
+  border-color: #eeeeee !important;
+}
+
+.fixed-sidebar-page #page-content{
+  background: #ffffff; 
+}
+
+
+.sec-border,
+input[type="text"], input[type="email"], input[type="password"],
+textarea {
+  border: 2px solid #eeeeee;
+}
+.chosen-container.chosen-container-single .chosen-single,
+.chosen-container.chosen-container-active.chosen-with-drop .chosen-single {
+  border: 2px solid #eeeeee;
+}
+
+.woocommerce table.shop_attributes th, .woocommerce-page table.shop_attributes th,
+.woocommerce table.shop_attributes td, .woocommerce-page table.shop_attributes td {
+    border: none;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 5px;
+}
+
+.woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content, .woocommerce-page .widget_price_filter .price_slider_wrapper .ui-widget-content{
+    border: 1px solid #eeeeee;
+}
+.pricing-table .pricing-title,
+.chosen-container .chosen-results li {
+  border-bottom: 1px solid #eeeeee;
+}
+.pricing-table .pricing-feature{
+  font-size: -12px;
+}
+
+.separator {
+  border:0;
+  height:1px;
+  color: #eeeeee;
+  background-color: #eeeeee;
+}
+
+
+.alt-color,
+li.ui-tabs-active h6 a,
+#navigation a:hover,
+#header-top-menu a:hover,
+#navigation .current-menu-item > a,
+#slidebar-menu .current-menu-item > a,
+a,
+a:visited,
+.social_media_icons a:hover,
+.post-title a:hover,
+.fn a:hover,
+a.team_icons:hover,
+.recent-post-title a:hover,
+.widget_nav_menu ul li.current-menu-item a,
+.widget_nav_menu ul li.current-menu-item:before,
+.filters .current_choice,
+.woocommerce ul.cart_list li a:hover,
+.woocommerce ul.product_list_widget li a:hover,
+.woocommerce-page ul.cart_list li a:hover,
+.woocommerce-page ul.product_list_widget li a:hover,
+.woocommerce-page .product-categories li a:hover,
+.woocommerce ul.products li.product .product-meta-data h3:hover,
+.woocommerce table.cart a.remove:hover, .woocommerce #content table.cart a.remove:hover, .woocommerce-page table.cart a.remove:hover, .woocommerce-page #content table.cart a.remove:hover,
+td.product-name a:hover,
+.woocommerce-page #content .quantity .plus:hover,
+.woocommerce-page #content .quantity .minus:hover,
+.post-category a:hover,
+#navigation .sub-menu .current-menu-item > a,
+#navigation .sub-menu a:hover,
+#navigation .children .current-menu-item > a,
+#navigation .children a:hover,
+a.custom-like-button.liked,
+#slidebar-menu .current-menu-item > a,
+.menu-card-item-stared {
+    color: #284387;
+}
+
+.content-slide-wrap .flex-control-paging li a.flex-active,
+.content-slide-wrap .flex-control-paging li.flex-active a:before {
+  background: #284387 !important;
+  border-color: #284387 !important;
+}
+
+#navigation .mega .sub-menu .highlight .sf-with-ul{
+ font:  400 12px "Montserrat","Open Sans","Arial",sans-serif; 
+  color: #acacac;
+  line-height: 51px;
+  letter-spacing: 1px;
+  text-transform: uppercase;;
+ color: #acacac !important;
+}
+#navigation .menu > ul > li.mega > ul > li {
+  border-color: #ffffff;
+}
+
+  .sb-slidebar.sb-right .menu{
+    border-top: 1px solid #2d2d2d;
+    border-bottom: 1px solid #2d2d2d;
+}
+.post-title a:hover {
+    color: #284387 !important;
+}
+
+.alt-bg,
+input[type="submit"],
+.tagcloud a:hover,
+.pagination a:hover,
+.widget_tag_cloud a:hover,
+.pagination .current {
+    background-color: #284387;
+    transition: 0.2s linear all;
+}
+.mejs-controls .mejs-time-rail .mejs-time-current ,
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+.woocommerce span.onsale, 
+.woocommerce-page span.onsale, 
+.woocommerce a.add_to_cart_button.button.product_type_simple.added,
+.woocommerce-page .widget_shopping_cart_content .buttons a.button:hover,
+.woocommerce nav.woocommerce-pagination ul li span.current, 
+.woocommerce nav.woocommerce-pagination ul li a:hover, 
+.woocommerce nav.woocommerce-pagination ul li a:focus,
+.testimonial-flex-slider .flex-control-paging li a.flex-active,
+#back-to-top,
+.be-carousel-nav,
+.tp-leftarrow,
+.tp-rightarrow,
+.more-link.style3-button,
+.view-project-link.style3-button {
+  background: #284387 !important;
+}
+.tagcloud a:hover,
+.testimonial-flex-slider .flex-control-paging li a.flex-active,
+.testimonial-flex-slider .flex-control-paging li a {
+  border-color: #284387;
+}
+a.be-button.view-project-link,
+.more-link {
+  border-color: #284387; 
+}
+
+
+.portfolio-container .thumb-bg {
+  background-color: rgba(40,67,135,0.85);
+}
+
+.photostream_overlay,
+.be-button,
+.more-link.style3-button,
+.view-project-link.style3-button,
+input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button {
+	background-color: #284387;
+}
+.alt-bg-text-color,
+input[type="submit"],
+.tagcloud a:hover,
+.pagination a:hover,
+.widget_tag_cloud a:hover,
+.pagination .current,
+.woocommerce nav.woocommerce-pagination ul li span.current, 
+.woocommerce nav.woocommerce-pagination ul li a:hover, 
+.woocommerce nav.woocommerce-pagination ul li a:focus,
+#back-to-top,
+.be-carousel-nav,
+.single_portfolio_close .font-icon, 
+.single_portfolio_back .font-icon,
+.tp-leftarrow,
+.tp-rightarrow,
+.more-link.style3-button,
+.view-project-link.style3-button {
+    color: #ffffff !important;
+    transition: 0.2s linear all;
+}
+
+.be-button,
+input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button {
+	color: #ffffff;
+	transition: 0.2s linear all;
+}
+
+.portfolio-title a {
+    color: inherit;
+}
+
+
+
+
+.arrow-block .arrow_prev,
+.arrow-block .arrow_next {
+    background-color: rgb(0,0,0);background-color: rgba(0,0,0,1);} 
+
+.arrow-border .arrow_prev,
+.arrow-border .arrow_next {
+    border: 1px solid #000000;
+} 
+
+.gallery-info-box-wrap .arrow_prev .font-icon,
+.gallery-info-box-wrap .arrow_next .font-icon {
+  color: #ffffff;
+}
+
+.arrow-block .arrow_prev:hover,
+.arrow-block .arrow_next:hover {
+  background-color: rgb(0,0,0);background-color: rgba(0,0,0,1);}
+
+.arrow-border .arrow_prev:hover,
+.arrow-border .arrow_next:hover {
+    border: 1px solid #000000;
+} 
+
+.gallery-info-box-wrap .arrow_prev:hover .font-icon,
+.gallery-info-box-wrap .arrow_next:hover .font-icon {
+  color: #ffffff;
+}
+
+#back-to-top.layout-border,
+#back-to-top.layout-border-header-top {
+  right: 50px;
+  bottom: 50px;
+}
+.layout-border .fixed-sidebar-page #right-sidebar.active-fixed {
+    right: 30px;
+}
+body.header-transparent.admin-bar .layout-border #header #header-inner-wrap.no-transparent.top-animate, 
+body.sticky-header.admin-bar .layout-border #header #header-inner-wrap.no-transparent.top-animate {
+  top: 62px;
+}
+body.header-transparent .layout-border #header #header-inner-wrap.no-transparent.top-animate, 
+body.sticky-header .layout-border #header #header-inner-wrap.no-transparent.top-animate {
+  top: 30px;
+}
+body.header-transparent.admin-bar .layout-border.layout-border-header-top #header #header-inner-wrap.no-transparent.top-animate, 
+body.sticky-header.admin-bar .layout-border.layout-border-header-top #header #header-inner-wrap.no-transparent.top-animate {
+  top: 32px;
+  z-index: 15;
+}
+body.header-transparent .layout-border.layout-border-header-top #header #header-inner-wrap.no-transparent.top-animate, 
+body.sticky-header .layout-border.layout-border-header-top #header #header-inner-wrap.no-transparent.top-animate {
+  top: 0px;
+  z-index: 15;
+}
+body.header-transparent .layout-border #header #header-inner-wrap.no-transparent #header-wrap, 
+body.sticky-header .layout-border #header #header-inner-wrap.no-transparent #header-wrap {
+  margin: 0px 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+}
+.mfp-content.layout-border img {
+  padding: 70px 0px 70px 0px;
+}
+body.admin-bar .mfp-content.layout-border img {
+  padding: 102px 0px 70px 0px;
+}
+.mfp-content.layout-border .mfp-bottom-bar {
+  margin-top: -60px;
+}
+body .mfp-content.layout-border .mfp-close {
+  top: 30px;
+}
+body.admin-bar .mfp-content.layout-border .mfp-close {
+  top: 62px;
+}
+pre {
+    background-image: -webkit-repeating-linear-gradient(top, #FFFFFF 0px, #FFFFFF 30px, #fafbfd 24px, #fafbfd 56px);
+    background-image: -moz-repeating-linear-gradient(top, #FFFFFF 0px, #FFFFFF 30px, #fafbfd 24px, #fafbfd 56px);
+    background-image: -ms-repeating-linear-gradient(top, #FFFFFF 0px, #FFFFFF 30px, #fafbfd 24px, #fafbfd 56px);
+    background-image: -o-repeating-linear-gradient(top, #FFFFFF 0px, #FFFFFF 30px, #fafbfd 24px, #fafbfd 56px);
+    background-image: repeating-linear-gradient(top, #FFFFFF 0px, #FFFFFF 30px, #fafbfd 24px, #fafbfd 56px);
+    display: block;
+    line-height: 28px;
+    margin-bottom: 50px;
+    overflow: auto;
+    padding: 0px 10px;
+    border:1px solid #eeeeee;
+}
+
+@media only screen and (max-width : 767px ) {
+    #hero-section h1 , 
+    .full-screen-section-wrap h1 {
+      font-size: 30px;
+      line-height: 40px;
+    }
+    #hero-section h2,
+    .full-screen-section-wrap h2 { 
+      font-size: 25px;
+      line-height: 35px;
+    }
+    #hero-section h4,
+    .full-screen-section-wrap h4 {
+      font-size: 16px;
+      line-height: 30px;
+    }
+    #hero-section h5,
+    .full-screen-section-wrap h5 {
+      font-size: 16px;
+      line-height: 30px;
+    }    
+}
+.loader-style1-double-bounce1, .loader-style1-double-bounce2,
+.loader-style2-wrap,
+.loader-style3-wrap > div,
+.loader-style5-wrap .dot1, .loader-style5-wrap .dot2,
+#nprogress .bar {
+  background: #284387 !important; 
+}
+.loader-style4-wrap {
+    border-top: 7px solid rgba(40, 67, 135 , 0.3);
+  border-right: 7px solid rgba(40, 67, 135 , 0.3);
+  border-bottom: 7px solid rgba(40, 67, 135 , 0.3);
+  border-left-color: #284387; 
+}
+
+#nprogress .spinner-icon {
+  border-top-color: #284387 !important; 
+  border-left-color: #284387 !important; 
+}
+#nprogress .peg {
+  box-shadow: 0 0 10px #284387, 0 0 5px #284387 !important;
+}
+.single-page-version #navigation .current_page_item a,
+.single-page-version #navigation .sub-menu .current-menu-item > a,
+.single-page-version #navigation .children .current-menu-item > a {
+  color: inherit !important;
+}
+
+.style1 #navigation,
+.style3 #navigation,
+.style5 #navigation, 
+#header-controls-left,
+#header-controls-right,
+#header-wrap,
+.mobile-nav-controller-wrap,
+#left-header-mobile .header-cart-controls,
+.style6 #navigation-left-side,
+.style6 #navigation-right-side,
+.overlay-menu-close {
+	line-height: 100px;
+}
+body.header-transparent #header-wrap #navigation,
+body.header-transparent #header-wrap #navigation-left-side,
+body.header-transparent #header-wrap #navigation-right-side,
+body.header-transparent #header-inner-wrap .header-controls, 
+body.header-transparent #header-inner-wrap .mobile-nav-controller-wrap,
+body.header-transparent .overlay-menu-close {
+	line-height: 100px;
+}
+body #header-inner-wrap.top-animate #navigation,
+body #header-inner-wrap.top-animate #navigation-left-side,
+body #header-inner-wrap.top-animate #navigation-right-side,
+body #header-inner-wrap.top-animate .header-controls,
+body #header-inner-wrap.top-animate #header-wrap,
+body #header-inner-wrap.top-animate #header-controls-right {
+	line-height: 100px;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .style1 #navigation,
+  .style3 #navigation,
+  .style5 #navigation, 
+  #header-controls-left,
+  #header-controls-right,
+  #header-wrap,
+  .mobile-nav-controller-wrap,
+  #left-header-mobile .header-cart-controls,
+  .style6 #navigation-left-side,
+  .style6 #navigation-right-side,
+  .overlay-menu-close {
+     
+    max-height: 100%;
+  }
+  .logo {
+      }
+}
+@media only screen and (max-width: 767px) {
+  .style1 #navigation,
+  .style3 #navigation,
+  .style5 #navigation, 
+  #header-controls-left,
+  #header-controls-right,
+  #header-wrap,
+  .mobile-nav-controller-wrap,
+  #left-header-mobile .header-cart-controls,
+  .style6 #navigation-left-side,
+  .style6 #navigation-right-side,
+  .overlay-menu-close {
+    line-height: 96px !important;    max-height: 100%;
+
+  }
+  .logo {
+      }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .style1 #navigation,
+  .style3 #navigation,
+  .style5 #navigation, 
+  #header-controls-left,
+  #header-controls-right,
+  #header-wrap,
+  .mobile-nav-controller-wrap,
+  #left-header-mobile .header-cart-controls,
+  .style6 #navigation-left-side,
+  .style6 #navigation-right-side,
+  .overlay-menu-close {
+        max-height: 100%;
+
+  }
+}
+/*  Optiopn Panel Css */
+#navigation a {
+    color: #acacac;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.header-search-controls i {
+    color: #acacac !important;
+    font-size: 25px !important;
+    top: 6px !important;
+}
+
+.menu-icon {
+    border-color: #acacac !important;
+    border-top-width: 3px;
+    margin-bottom: 2px;
+    position: relative;
+    width: 27px;
+}
+
+#work-section-2 p {
+    font-size: 16px;
+}
+
+.ui-tabs .ui-tabs-nav li a {
+    padding: 0 0 0px;
+}
+
+.brand-info p {
+    font-size: 16px;
+}
+
+#bbpress-forums li.bbp-body ul.forum, 
+#bbpress-forums li.bbp-body ul.topic {
+  border-top: 1px solid #eeeeee;
+}
+#bbpress-forums ul.bbp-lead-topic, #bbpress-forums ul.bbp-topics, #bbpress-forums ul.bbp-forums, #bbpress-forums ul.bbp-replies, #bbpress-forums ul.bbp-search-results {
+  border: 1px solid #eeeeee;
+}
+#bbpress-forums li.bbp-header, 
+#bbpress-forums li.bbp-footer,
+.menu-card-item.highlight-menu-item {
+  background: #fafbfd;
+}
+a.bbp-forum-title,
+#bbpress-forums fieldset.bbp-form label,
+.bbp-topic-title a.bbp-topic-permalink {
+  font:  400 15px "Montserrat","Open Sans","Arial",sans-serif; 
+  color: #222222;
+  line-height: 32px;
+  letter-spacing: .5px;
+  text-transform: none; /* font: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit; */
+}
+#bbpress-forums ul.forum-titles li,
+#bbpress-forums ul.bbp-replies li.bbp-header {
+  font:  400 15px "Montserrat","Open Sans","Arial",sans-serif; 
+  color: #222222;
+  line-height: 32px;
+  letter-spacing: .5px;
+  text-transform: none;  line-height: inherit;
+  letter-spacing: inherit;
+  text-transform: uppercase;
+  font-size: inherit;
+}
+#bbpress-forums .topic .bbp-topic-meta a, 
+.bbp-forum-freshness a,
+.bbp-topic-freshness a,
+.bbp-header .bbp-reply-content a,
+.bbp-topic-tags a,
+.bbp-breadcrumb a,
+.bbp-forums-list a {
+  color: #222222;
+}
+#bbpress-forums .topic .bbp-topic-meta a:hover,
+.bbp-forum-freshness a:hover,
+.bbp-topic-freshness a:hover,
+.bbp-header .bbp-reply-content a:hover,
+.bbp-topic-tags a:hover,
+.bbp-breadcrumb a:hover,
+.bbp-forums-list a:hover {
+  color: #284387;
+}
+div.bbp-reply-header,
+.bar-style-related-posts-list,
+.menu-card-item {
+  border-color: #eeeeee;
+}
+
+/*Event On Plugin*/
+
+.ajde_evcal_calendar .calendar_header p, .eventon_events_list .eventon_list_event .evcal_cblock {
+    font-family: Montserrat !important;
+}
+.eventon_events_list .eventon_list_event .evcal_desc span.evcal_desc2, .evo_pop_body .evcal_desc span.evcal_desc2 {
+  font-family: Montserrat !important;
+  font-size: 14px !important;
+  text-transform: none;
+}
+.eventon_events_list .eventon_list_event .evcal_desc span.evcal_event_subtitle, .evo_pop_body .evcal_desc span.evcal_event_subtitle,
+.evcal_evdata_row .evcal_evdata_cell p, #evcal_list .eventon_list_event p.no_events {
+  text-transform: none !important;
+  font-family: Raleway !important;
+  font-size: inherit !important;
+}
+#evcal_list .eventon_list_event .evcal_desc span.evcal_event_title, .eventon_events_list .evcal_event_subtitle {
+  padding-bottom: 10px !important;
+}
+.eventon_events_list .eventon_list_event .evcal_desc, .evo_pop_body .evcal_desc, #page-content p.evcal_desc {
+  padding-left: 100px !important;
+}
+.evcal_evdata_row {
+  background: #fafbfd !important;
+}
+.eventon_events_list .eventon_list_event .event_description {
+  background: #fafbfd !important;
+  border-color: #eeeeee !important;
+}
+.bordr,
+#evcal_list .bordb {
+  border-color: #eeeeee !important; 
+}
+.evcal_evdata_row .evcal_evdata_cell h3 {
+  margin-bottom: 10px !important;
+}
+</style>
+	<meta charset="utf-8">
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+	<![endif]-->
+
+	<title>Home - CSR Media Group</title>
+
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+	<link rel="icon" type="image/png" href="https://web.archive.org/web/20220702054929im_/http://www.csrmediagroup.com/wp-content/uploads/2015/06/favicon.ico">
+    
+	<!-- This site is optimized with the Yoast SEO plugin v14.3 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="robots" content="index, follow"/>
+	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+	<link rel="canonical" href="https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/"/>
+	<meta property="og:locale" content="en_US"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:title" content="Home - CSR Media Group"/>
+	<meta property="og:description" content="THE MARKETING LANDSCAPE HAS CHANGED FOREVERGone are the days when brands were in control of their narratives. Today, consumers and creators define who a brand is.Modern consumers are heavily influenced […]"/>
+	<meta property="og:url" content="https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/"/>
+	<meta property="og:site_name" content="CSR Media Group"/>
+	<meta property="article:modified_time" content="2020-06-10T17:36:10+00:00"/>
+	<meta name="twitter:card" content="summary"/>
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://web.archive.org/web/20220702054929/https://schema.org","@graph":[{"@type":"WebSite","@id":"https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/#website","url":"https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/","name":"CSR Media Group","description":"","potentialAction":[{"@type":"SearchAction","target":"https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/#webpage","url":"https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/","name":"Home - CSR Media Group","isPartOf":{"@id":"https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/#website"},"datePublished":"2015-05-06T11:08:32+00:00","dateModified":"2020-06-10T17:36:10+00:00","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/"]}]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="dns-prefetch" href="//web.archive.org/web/20220702054929/http://f.vimeocdn.com/"/>
+<link rel="dns-prefetch" href="//web.archive.org/web/20220702054929/http://maps.googleapis.com/"/>
+<link rel="dns-prefetch" href="//fonts.googleapis.com/"/>
+<link rel="dns-prefetch" href="//web.archive.org/web/20220702054929/http://s.w.org/"/>
+<link rel="alternate" type="application/rss+xml" title="CSR Media Group » Feed" href="https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="CSR Media Group » Comments Feed" href="https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/comments/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="CSR Media Group » Home Comments Feed" href="https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/home/feed/"/>
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/web.archive.org\/web\/20220702054929\/https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/web.archive.org\/web\/20220702054929\/https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/web.archive.org\/web\/20220702054929\/http:\/\/www.csrmediagroup.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.10"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="flick-css" href="https://web.archive.org/web/20220702054929cs_/http://www.csrmediagroup.com/wp-content/plugins/mailchimp//css/flick/flick.css?ver=5.4.10" type="text/css" media="all"/>
+<link rel="stylesheet" id="mailchimpSF_main_css-css" href="https://web.archive.org/web/20220702054929cs_/http://www.csrmediagroup.com/?mcsf_action=main_css&amp;ver=5.4.10" type="text/css" media="all"/>
+<!--[if IE]>
+<link rel='stylesheet' id='mailchimpSF_ie_css-css'  href='http://www.csrmediagroup.com/wp-content/plugins/mailchimp/css/ie.css?ver=5.4.10' type='text/css' media='all' />
+<![endif]-->
+<link rel="stylesheet" id="wp-block-library-css" href="https://web.archive.org/web/20220702054929cs_/http://www.csrmediagroup.com/wp-includes/css/dist/block-library/style.min.css?ver=5.4.10" type="text/css" media="all"/>
+<link rel="stylesheet" id="contact-form-7-css" href="https://web.archive.org/web/20220702054929cs_/http://www.csrmediagroup.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.9" type="text/css" media="all"/>
+<link rel="stylesheet" id="be-style-css-css" href="https://web.archive.org/web/20220702054929cs_/http://www.csrmediagroup.com/wp-content/themes/oshin_child/style.css?ver=5.4.10" type="text/css" media="all"/>
+<link rel="stylesheet" id="be-themes-layout-css" href="https://web.archive.org/web/20220702054929cs_/http://www.csrmediagroup.com/wp-content/plugins/be-page-builder/css/layout.css?ver=5.4.10" type="text/css" media="all"/>
+<link rel="stylesheet" id="be-themes-css-css" href="https://web.archive.org/web/20220702054929cs_/http://www.csrmediagroup.com/wp-admin/admin-ajax.php?action=be_themes_options_css&amp;ver=5.4.10" type="text/css" media="all"/>
+<link rel="stylesheet" id="icomoon-css" href="https://web.archive.org/web/20220702054929cs_/http://www.csrmediagroup.com/wp-content/themes/oshin/fonts/icomoon/style.css?ver=5.4.10" type="text/css" media="all"/>
+<link rel="stylesheet" id="be-lightbox-css-css" href="https://web.archive.org/web/20220702054929cs_/http://www.csrmediagroup.com/wp-content/themes/oshin/css/magnific-popup.css?ver=5.4.10" type="text/css" media="all"/>
+<link rel="stylesheet" id="be-flexslider-css" href="https://web.archive.org/web/20220702054929cs_/http://www.csrmediagroup.com/wp-content/themes/oshin/css/flexslider.css?ver=5.4.10" type="text/css" media="all"/>
+<link rel="stylesheet" id="be-animations-css" href="https://web.archive.org/web/20220702054929cs_/http://www.csrmediagroup.com/wp-content/themes/oshin/css/animate-custom.css?ver=5.4.10" type="text/css" media="all"/>
+<link rel="stylesheet" id="be-slider-css" href="https://web.archive.org/web/20220702054929cs_/http://www.csrmediagroup.com/wp-content/themes/oshin/css/be-slider.css?ver=5.4.10" type="text/css" media="all"/>
+<link rel="stylesheet" id="be-themes-bb-press-css-css" href="https://web.archive.org/web/20220702054929cs_/http://www.csrmediagroup.com/wp-content/themes/oshin/bb-press/bb-press.css?ver=5.4.10" type="text/css" media="all"/>
+<link rel="stylesheet" id="be-pb-frontend-output-css" href="https://web.archive.org/web/20220702054929cs_/http://www.csrmediagroup.com/wp-content/plugins/be-page-builder/css/shortcodes.css?ver=5.4.10" type="text/css" media="all"/>
+<link rel="stylesheet" id="be-justifiedgrid-css-css" href="https://web.archive.org/web/20220702054929cs_/http://www.csrmediagroup.com/wp-content/plugins/be-page-builder/css/justifiedGallery.min.css?ver=5.4.10" type="text/css" media="all"/>
+<link rel="stylesheet" id="redux-google-fonts-be_themes_data-css" href="https://fonts.googleapis.com/css?family=Montserrat:700,400|Crimson+Text|Raleway:400,600|Source+Sans+Pro:400&subset=latin" type="text/css" media="all"/>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-content/plugins/mailchimp//js/scrollTo.js?ver=1.5.7"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-includes/js/jquery/jquery.form.min.js?ver=4.2.1"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var mailchimpSF = {"ajax_url":"https:\/\/web.archive.org\/web\/20220702054929\/http:\/\/www.csrmediagroup.com\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-content/plugins/mailchimp//js/mailchimp.js?ver=1.5.7"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-content/plugins/mailchimp//js/datepicker.js?ver=5.4.10"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-content/plugins/wp-ajaxify-comments/js/wp-ajaxify-comments.min.js?ver=1.6.2"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-content/themes/oshin/js/vendor/modernizr-2.6.2.min.js?ver=5.4.10"></script>
+<link rel="https://api.w.org/" href="http://www.csrmediagroup.com/wp-json/"/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.csrmediagroup.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.csrmediagroup.com/wp-includes/wlwmanifest.xml"/> 
+<link rel="shortlink" href="https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/"/>
+<link rel="alternate" type="application/json+oembed" href="https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.csrmediagroup.com%2F"/>
+<link rel="alternate" type="text/xml+oembed" href="https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.csrmediagroup.com%2F&amp;format=xml"/>
+<script type="text/javascript">
+        jQuery(function($) {
+            $('.date-pick').each(function() {
+                var format = $(this).data('format') || 'mm/dd/yyyy';
+                format = format.replace(/yyyy/i, 'yy');
+                $(this).datepicker({
+                    autoFocusNextInput: true,
+                    constrainInput: false,
+                    changeMonth: true,
+                    changeYear: true,
+                    beforeShow: function(input, inst) { $('#ui-datepicker-div').addClass('show'); },
+                    dateFormat: format.toLowerCase(),
+                });
+            });
+            d = new Date();
+            $('.birthdate-pick').each(function() {
+                var format = $(this).data('format') || 'mm/dd';
+                format = format.replace(/yyyy/i, 'yy');
+                $(this).datepicker({
+                    autoFocusNextInput: true,
+                    constrainInput: false,
+                    changeMonth: true,
+                    changeYear: false,
+                    minDate: new Date(d.getFullYear(), 1-1, 1),
+                    maxDate: new Date(d.getFullYear(), 12-1, 31),
+                    beforeShow: function(input, inst) { $('#ui-datepicker-div').removeClass('show'); },
+                    dateFormat: format.toLowerCase(),
+                });
+
+            });
+
+        });
+    </script>
+<script type="text/javascript">/* <![CDATA[ */if (!window["WPAC"]) var WPAC = {};WPAC._Options = {debug:false,selectorCommentForm:"#commentform",selectorCommentsContainer:"#comments",selectorCommentPagingLinks:"#comments [class^='nav-'] a",selectorCommentLinks:"#comments a[href*=\"/comment-page-\"]",selectorRespondContainer:"#respond",selectorErrorContainer:"p:parent",popupCornerRadius:5,popupMarginTop:10,popupWidth:30,popupPadding:5,popupFadeIn:400,popupFadeOut:400,popupTimeout:3000,popupBackgroundColorLoading:"#000",popupTextColorLoading:"#fff",popupBackgroundColorSuccess:"#008000",popupTextColorSuccess:"#fff",popupBackgroundColorError:"#f00",popupTextColorError:"#fff",popupOpacity:70,popupTextAlign:"center",popupTextFontSize:"Default font size",popupZindex:1000,scrollSpeed:500,autoUpdateIdleTime:0,textPosted:"Your comment has been posted. Thank you!",textPostedUnapproved:"Your comment has been posted and is awaiting moderation. Thank you!",textReloadPage:"Reloading page. Please wait&hellip;",textPostComment:"Posting your comment. Please wait&hellip;",textRefreshComments:"Loading comments. Please wait&hellip;",textUnknownError:"Something went wrong, your comment has not been posted.",selectorPostContainer:"",commentPagesUrlRegex:"",asyncLoadTrigger:"DomReady",disableUrlUpdate:false,disableScrollToAnchor:false,disableCache:false,enableByQuery:false,commentsEnabled:true,version:"1.6.2"};WPAC._Callbacks = {"beforeSelectElements": function(dom) {},"beforeUpdateComments": function(newDom, commentUrl) {},"afterUpdateComments": function(newDom, commentUrl) {},"beforeSubmitComment": function() {},"afterPostComment": function(commentUrl, unapproved) {}};/* ]]> */</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//web.archive.org/web/20220702054929/http://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64854527-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body class="home page-template-default page page-id-3393 header-transparent no-section-scroll no-smooth-scroll top-header none be-themes-layout-layout-wide">
+  <!-- LOADER -->
+        <div id="loader-wrapper">
+			<div class="spinner"></div>
+        </div>
+	
+	<div class="search-box-wrapper style2-header-search-widget">
+				<a href="#" class="header-search-form-close"><i class="icon-icon_close font-icon"></i></a>
+				<div class="search-box-inner1">
+					<div class="search-box-inner2"><form role="search" method="get" class="searchform" action="https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/">
+	    <input type="text" placeholder="Search ..." value="" name="s" class="s"/>
+	    <i class="search-icon icon-search font-icon"></i>
+	    <input type="submit" class="search-submit" value=""/>
+	    </form></div>
+				</div>
+			</div>	<div id="main-wrapper">
+				<div id="main" class="ajaxable layout-wide">
+			 <!-- if ( isset($be_themes_data['opt-header-type']) && ('top' == $be_themes_data['opt-header-type'] ) ) { -->
+	<header id="header">
+				<div id="header-inner-wrap" class="transparent background--light " data-headerscheme="background--light">
+						<div id="left-header-mobile" class="clearfix">
+				<div class="logo">
+					<a href="https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/"><img class="transparent-logo dark-scheme-logo" src="https://web.archive.org/web/20220702054929im_/http://www.csrmediagroup.com/wp-content/themes/oshin/img/logo.png" alt="Logo"/><img class="transparent-logo light-scheme-logo" src="https://web.archive.org/web/20220702054929im_/http://www.csrmediagroup.com/wp-content/themes/oshin/img/logo.png" alt="Logo"/><img class="normal-logo" src="https://web.archive.org/web/20220702054929im_/http://www.csrmediagroup.com/wp-content/themes/oshin/img/logo.png" alt="Logo"/><img class="sticky-logo" src="https://web.archive.org/web/20220702054929im_/http://www.csrmediagroup.com/wp-content/themes/oshin/img/logo.png" alt="Logo"/></a>				</div>				<div class="mobile-nav-controller-wrap">
+					<div class="menu-controls mobile-nav-controller" title="Mobile Menu Controller"><i class="font-icon icon-list2"></i></div>
+				</div>
+			</div>
+			<div id="header-wrap" class=" clearfix" data-default-height="100" data-sticky-height="100">
+														<div class="logo">
+						<a href="https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/"><img class="transparent-logo dark-scheme-logo" src="https://web.archive.org/web/20220702054929im_/http://www.csrmediagroup.com/wp-content/themes/oshin/img/logo.png" alt="Logo"/><img class="transparent-logo light-scheme-logo" src="https://web.archive.org/web/20220702054929im_/http://www.csrmediagroup.com/wp-content/themes/oshin/img/logo.png" alt="Logo"/><img class="normal-logo" src="https://web.archive.org/web/20220702054929im_/http://www.csrmediagroup.com/wp-content/themes/oshin/img/logo.png" alt="Logo"/><img class="sticky-logo" src="https://web.archive.org/web/20220702054929im_/http://www.csrmediagroup.com/wp-content/themes/oshin/img/logo.png" alt="Logo"/></a>					</div>
+					<div id="header-controls-right">
+																		<div class="mobile-nav-controller-wrap">
+							<div class="menu-controls mobile-nav-controller"><div class="font-icon custom-font-icon"><span class="menu-icon menu-icon-first"></span><span class="menu-icon menu-icon-second"></span><span class="menu-icon menu-icon-third"></span></div></div>
+						</div>
+					</div>					<nav id="navigation" class="clearfix">	<div class="menu"><ul id="menu" class="clearfix"><li id="menu-item-3412" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-3393 current_page_item menu-item-3412"><a href="https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/" aria-current="page">Home</a></li>
+<li id="menu-item-3712" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3712"><a href="https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/about/">About Us</a></li>
+<li id="menu-item-3414" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3414"><a href="https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/brands/">Brands</a></li>
+<li id="menu-item-3415" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3415"><a href="https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/creators/">Creators</a></li>
+<li id="menu-item-3416" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3416"><a href="https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/creatoreconomy/">Creator Economy</a></li>
+<li id="menu-item-3418" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3418"><a href="https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/contact/">Contact us</a></li>
+</ul></div>					</nav><!-- End Navigation -->			</div>
+							<span class="header-border "></span>						<div class="clearfix"><div class="mobile-menu"><ul id="mobile-menu" class="clearfix"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-3393 current_page_item menu-item-3412"><a href="https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/" aria-current="page">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3712"><a href="https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/about/">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3414"><a href="https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/brands/">Brands</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3415"><a href="https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/creators/">Creators</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3416"><a href="https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/creatoreconomy/">Creator Economy</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3418"><a href="https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/contact/">Contact us</a></li>
+</ul></div>			</div>
+		</div>
+	</header> <!-- END HEADER -->
+<div class="header-hero-section" id="hero-section"><div class="header-hero-custom-section"><div class="hero-section-wrap be-section full-screen-height full-yes be-bg-cover be-bg-parallax   clearfix" style="background: url(https://web.archive.org/web/20220702054929im_/http://www.csrmediagroup.com/wp-content/uploads/2015/05/dwom-media-leader-influence-marketing1.jpg) no-repeat fixed center center;; height: px !important;"><div class="be-row "><div class="hero-section-inner-wrap"><div class="hero-section-inner"><div class="home-banner">
+<h4 class="sub-title-banner sub-title-banner-home">CREATOR MARKETING SOLUTIONS</h4>
+<h1 class="banner-title banner-title-home"><span class="rotates" data-animation="fade" data-speed="4000"> BUILD BRAND AWARENESS|| DRIVE SOCIAL ENGAGEMENT|| INCREASE CONSUMER TRUST||</span></h1>
+<h6 class="sub-sub-title">CSR media group is a full service creator media agency trusted by the<br/>world’s largest brands to influence consumer behaviour</h6>
+<div class="be-button-wrap align-block block-center "><a class="be-shortcode mediumbtn be-button left-icon none  be-animate  bg-animation-none" href="/web/20220702054929/http://www.csrmediagroup.com/about/" style="border-style: solid; border-width:0px; border-color: #000000;background-color: #0e76bc; color: #ffffff; " data-animation="fadeInUp" data-bg-color="#0e76bc" data-hover-bg-color="#000000" data-color="#ffffff" data-hover-color="#ffffff" data-border-color="#000000" data-hover-border-color="#0e76bc">LEARN MORE</a></div>
+</div>
+</div></div></div></div></div></div>	<div id="content" class="no-sidebar-page">
+		<div id="content-wrap" class="page-builder">
+			<section id="page-content">
+				<div class="clearfix">
+					<div class="be-section         clearfix" data-headerscheme="background--dark" style=" background: url(https://web.archive.org/web/20220702054929im_/http://www.csrmediagroup.com/wp-content/uploads/2015/06/dwom-media-brands-bg.jpg) repeat fixed top center;" id="info-block"><div class="be-section-pad clearfix " style=" padding-top:100px;padding-bottom:100px;" data-padding-top="100"><div class="be-row be-wrap clearfix "><div class="one-col column-block clearfix  no-background    " data-animation="" style="  "><div class="be-custom-column-inner"><div class="special-heading-wrap style1 scrollToFade" data-animation="fadeInUp"><div class="special-heading align-center"><h2 class="special-h-tag" style="color: ">THE MARKETING LANDSCAPE HAS CHANGED FOREVER</h2><div class="sub-title margin-bottom "><h5 class="info-title">Gone are the days when brands were in control of their narratives. Today, consumers and creators define who a brand is.</h5><p style="text-align: left;">Modern consumers are heavily influenced by the opinions and actions of the individuals they admire, trust, and follow on social media.</p><p style="text-align: left;">We develop strategies and solutions to authentically weave your brand's message directly into the narratives of these trusted digital creators.</p></div></div></div><div class="be-button-wrap align-block block-center "><a class="be-shortcode mediumbtn be-button left-icon none   bg-animation-none" href="/web/20220702054929/http://www.csrmediagroup.com/creators/" style="border-style: solid; border-width:0px; border-color: transparent;background-color: #0e76bc; color: #ffffff; " data-animation="fadeIn" data-bg-color="#0e76bc" data-hover-bg-color="#000000" data-color="#ffffff" data-hover-color="#ffffff" data-border-color="transparent" data-hover-border-color="transparent">LEARN MORE</a></div></div></div></div></div></div><div class="be-section         clearfix" data-headerscheme="background--dark" style=" background: url(https://web.archive.org/web/20220702054929im_/http://www.csrmediagroup.com/wp-content/uploads/2015/05/dwom-media-how-it-works-bg.jpg) repeat scroll top center;" id="work-section"><div class="be-section-pad clearfix " style=" padding-top:100px;padding-bottom:100px;" data-padding-top="100"><div class="be-row be-wrap clearfix zero-bottom be-no-space "><div class="one-half column-block  no-background be-bg-cover   " data-animation="" style="  "><div class="be-custom-column-pad" style=""><p><a href="https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/wp-content/uploads/2020/06/Apple-iPhone-11-Pro-home-page-3.png"><img class=" resp-img   alignnone wp-image-3804 " src="https://web.archive.org/web/20220702054929im_/http://www.csrmediagroup.com/wp-content/uploads/2020/06/Apple-iPhone-11-Pro-home-page-3-783x1024.png" alt="" width="450" height="589"></a></p>
+</div></div><div class="one-half column-block  no-background    " data-animation="" style="  "><div class="be-custom-column-inner"><div class="special-heading-wrap style1 0" data-animation="fadeInRight"><div class="special-heading align-left"><h3 class="special-h-tag" style="color: ">DO WELL BY DOING GOOD</h3></div></div><h5 class="info-title">We specialize in executing campaigns with positive social impact.</h5>
+<p>Cause-related marketing is not just an opportunity to make the world a better place, there is a clear business case for it.&nbsp;</p>
+<p><span style="font-weight: 400;">“87% of consumers will purchase a product because a company advocated for an issue they care about” &#8211; Cone CSR Study</span></p>
+<p><span style="font-weight: 400;">“</span><span style="font-weight: 400;">42% of consumers will pay extra for products and services from companies committed to positive social and environmental impact” &#8211; Cone CSR Study</span></p>
+<h5 class="info-title">Creators love collaborating on campaigns with social objectives.&nbsp;</h5>
+</div></div></div></div></div><div class="be-section   be-bg-cover be-bg-parallax be-bg-overlay    clearfix" data-headerscheme="background--dark" style=" background: url(https://web.archive.org/web/20220702054929im_/http://www.csrmediagroup.com/wp-content/uploads/2015/05/dwom-media-influencers-bg1.jpg) no-repeat fixed center center;" id="info-block-2"><div class="be-section-pad clearfix " style=" padding-top:100px;padding-bottom:100px;" data-padding-top="100"><div class="section-overlay" style="background: ; -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=85);filter: alpha(opacity=85);-moz-opacity: 0.85;-khtml-opacity: 0.85;opacity: 0.85;"></div><div class="be-row be-wrap clearfix "><div class="one-col column-block clearfix  no-background    " data-animation="" style="  "><div class="be-custom-column-inner"><div class="special-heading-wrap style1 scrollToFade" data-animation="fadeInUp"><div class="special-heading align-center"><h2 class="special-h-tag" style="color: ">SOCIAL CHANGE MAKERS</h2><div class="sub-title margin-bottom "><h5 class="info-title">Creators are vocal about the causes they care about and eager to share information about the brands they like and support.&nbsp;</h5><p><span style="font-weight: 400;">This growing group of individuals react to, engage with and make decisions about the world around them based on ever-evolving issues such as the environment, social justice, community building and equality, using their platforms for good. </span></p><p><span style="font-weight: 400;">Their audiences are filled with your friends, colleagues and family members. The ones who read ingredient lists, shop local, check online reviews, donate time and money, reuse and recycle.</span></p></div></div></div><div class="be-button-wrap align-block block-center "><a class="be-shortcode mediumbtn be-button left-icon none   bg-animation-none" href="/web/20220702054929/http://www.csrmediagroup.com/creators/" style="border-style: solid; border-width:0px; border-color: transparent;background-color: #0e76bc; color: #ffffff; " data-animation="fadeIn" data-bg-color="#0e76bc" data-hover-bg-color="#000000" data-color="#ffffff" data-hover-color="#ffffff" data-border-color="transparent" data-hover-border-color="transparent">LEARN MORE</a></div></div></div></div></div></div><div class="be-section         clearfix" data-headerscheme="background--dark" style=" background: url(https://web.archive.org/web/20220702054929im_/http://www.csrmediagroup.com/wp-content/uploads/2015/05/repeat-bg1.jpg) repeat scroll top left;" id="call-section"><div class="be-section-pad clearfix " style=" padding-top:80px;padding-bottom:80px;" data-padding-top="80"><div class="be-row be-wrap clearfix "><div class="one-half column-block  no-background    " data-animation="" style="  vertical-align: middle;"><div class="be-custom-column-inner"><div class="special-heading-wrap style1 0" data-animation="fadeInRight"><div class="special-heading align-center"><h5 class="special-h-tag" style="color: #ffffff">WANT TO WORK WITH CSR MEDIA GROUP?</h5></div></div></div></div><div class="one-half column-block  no-background be-bg-cover   " data-animation="" style="  vertical-align: middle;"><div class="be-custom-column-pad" style="padding-right: 1px;text-align: center; margin:0%;"><div class="be-button-wrap  "><a class="be-shortcode mediumbtn be-button left-icon none   bg-animation-none" href="/web/20220702054929/http://www.csrmediagroup.com/brands/" style="border-style: solid; border-width:0px; border-color: #000000;background-color: #0e76bc; color: #ffffff; " data-animation="fadeInUp" data-bg-color="#0e76bc" data-hover-bg-color="#000000" data-color="#ffffff" data-hover-color="#ffffff" data-border-color="#000000" data-hover-border-color="#0e76bc">I'M A BRAND</a></div><div class="be-button-wrap  "><a class="be-shortcode mediumbtn be-button left-icon none   bg-animation-none" href="/web/20220702054929/http://www.csrmediagroup.com/creators/" style="border-style: solid; border-width:0px; border-color: #000000;background-color: #0e76bc; color: #ffffff; " data-animation="fadeInUp" data-bg-color="#0e76bc" data-hover-bg-color="#000000" data-color="#ffffff" data-hover-color="#ffffff" data-border-color="#000000" data-hover-border-color="#0e76bc">I'M A CREATOR</a></div></div></div></div></div></div><div class="be-section        hide-mobile clearfix" data-headerscheme="background--dark" style=" background: url(https://web.archive.org/web/20220702054929im_/http://www.csrmediagroup.com/wp-content/uploads/2015/05/dwom-media-subtle-bg.jpg) repeat scroll top left;" id="slider-section"><div class="be-section-pad clearfix " style=" padding-top:50px;padding-bottom:80px;" data-padding-top="50"><div class="be-row be-wrap clearfix "><div class="one-col column-block clearfix  no-background    " data-animation="" style="  "><div class="be-custom-column-inner"><div class="special-heading-wrap style1 0" data-animation="fadeIn"><div class="special-heading align-center"><h2 class="special-h-tag" style="color: ">CASE STUDIES</h2></div></div><div class="component component-fullwidth loaded fxSoftScale" data-height="500" data-mobile-height="360" data-current="0" style="height: 500px;"><ul class="itemwrap"><li><div class="be-slide-bg-holder">
+								<div class="be-slide-bg be-bg-cover be-bg-parallax " data-image="http://www.csrmediagroup.com/wp-content/uploads/2020/06/csr-media-case-studies-fortune-500-copy-1.jpg"><i class="font-icon loader-style4-wrap loader-icon"></i></div>
+								<div class="be-wrap">
+									<div class="be-slider-content-wrap">
+										<div class="be-slider-content clearfix">
+											<div class="be-slider-content-inner-wrap" style="width: 40%;margin: 0px;left: 10%;position: relative;float: none;"><div class="be-animate slideInRight animated be-slider-content-inner"><div class="center-block"><h3 class="sl-title" style="max-width: 410px;">Canadian Tire&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2016 RIO Olympics</h3><h4 class="sl-sub-title">Objective</h4><p class="sl-text">Throughout every Olympic games, there are moments of courage and sportsmanship that transcend sport. Our task was to engage Canadians in a large scale conversation about those moments occurring daily throughout the RIO Olympic games.&nbsp;</p><h4>Results</h4><p class="sl-text" style="margin-bottom: 0;"><strong>Trending Hashtag </strong>throughout Opening Ceremony&nbsp;<br><strong>133 creators</strong>&nbsp;(33% over delivery)<br><strong>5,295</strong> <strong>pieces of content</strong>&nbsp;(660% over delivery)<br><b>143 million+ </b>impressions &nbsp;<br><strong>$200k+ raised </strong>for Jumpstart&nbsp;</p></div></div></div>
+										</div>
+									</div>
+								</div>
+							</div></li><li><div class="be-slide-bg-holder">
+								<div class="be-slide-bg be-bg-cover be-bg-parallax " data-image="http://www.csrmediagroup.com/wp-content/uploads/2020/06/csr-media-case-studies-fortune-500-food-1.jpg"><i class="font-icon loader-style4-wrap loader-icon"></i></div>
+								<div class="be-wrap">
+									<div class="be-slider-content-wrap">
+										<div class="be-slider-content clearfix">
+											<div class="be-slider-content-inner-wrap" style="width: 40%;margin: 0px;left: 10%;position: relative;float: none;"><div class="be-animate slideInRight animated be-slider-content-inner"><div class="center-block"><h3 class="sl-title" style="max-width: 410px;">VISA + NHL MOVEMBER</h3><h4 class="sl-sub-title">Objective</h4><p class="sl-text">Leveraging Visa's sponsorship of the NHL our campaign offered Movember fundraisers the opportunity to enlist the support of various NHL stars in their fundraising efforts through customizable videos, memes, and audio clips that could be shared on social.&nbsp;</p><h4>Results</h4><p class="sl-text" style="margin-bottom: 0;"><strong>305 pieces of content created</strong> (&gt;100% more than projected)&nbsp;<br><strong>58 creators activated</strong> (90% more than projected)<br><strong>54 million + </strong>impressions&nbsp;<br><strong>Over $15,000</strong> raised for Movember by creators</p></div></div></div>
+										</div>
+									</div>
+								</div>
+							</div></li></ul><nav class="component-nav"><a class="prev be-slider-prev" href="#"><i class="font-icon icon-arrow_carrot-left"></i></a><a class="next be-slider-next" href="#"><i class="font-icon icon-arrow_carrot-right"></i></a></nav></div></div></div></div></div></div><div class="be-section   be-bg-cover be-bg-parallax     clearfix" data-headerscheme="background--dark" style=" background: url(https://web.archive.org/web/20220702054929im_/http://www.csrmediagroup.com/wp-content/uploads/2015/05/dwom-media-contact-bg.jpg) no-repeat fixed center center;" id="connect-section"><div class="be-section-pad clearfix " style=" padding-top:80px;padding-bottom:80px;" data-padding-top="80"><div class="be-row be-wrap clearfix zero-bottom be-no-space "><div class="one-half column-block  no-background be-bg-cover    hide-mobile" data-animation="" style="  "><div class="be-custom-column-pad" style=""></div></div><div class="one-half column-block  with-background    " data-animation="" style="background-color: #ffffff;  "><div class="be-custom-column-pad" style="padding-top: 5%;padding-right: 5%;padding-bottom: 5%;padding-left: 5%;"><div class="special-heading-wrap style1 0" data-animation="fadeIn"><div class="special-heading align-left"><h3 class="special-h-tag" style="color: ">CONNECT WITH US</h3></div></div><h4 class="cn-title">P : 416-477-1477 / F: 416-477-1488</h4>
+<h4 class="cn-title">903-1000 Finch Ave West Toronto ON M3J2V5</h4>
+<h4 class="cn-title">info@csrmediagroup.com</h4>
+<h4 class="cn-title">&nbsp;</h4>
+<div class="icon-shortcode align-none"><a href="https://web.archive.org/web/20220702054929/https://www.facebook.com/dwomDOTcom" class="icon-shortcode icon-plain  " data-animation="fadeIn" target="_blank"><i class="font-icon icon-facebook medium plain" style="color:#0e76bc;" data-color="#0e76bc" data-hover-color="#ffffff"></i></a></div><div class="icon-shortcode align-none"><a href="https://web.archive.org/web/20220702054929/https://twitter.com/dwommedia" class="icon-shortcode icon-plain  " data-animation="fadeIn" target="_blank"><i class="font-icon icon-social_twitter medium plain" style="color:#0e76bc;" data-color="#0e76bc" data-hover-color=""></i></a></div><div class="icon-shortcode align-none"><a href="https://web.archive.org/web/20220702054929/https://instagram.com/dwommedia_inc/" class="icon-shortcode icon-plain  " data-animation="fadeIn" target="_blank"><i class="font-icon icon-social_instagram medium plain" style="color:#0e76bc;" data-color="#0e76bc" data-hover-color=""></i></a></div><div class="icon-shortcode align-none"><a href="https://web.archive.org/web/20220702054929/https://www.pinterest.com/dwommedia/" class="icon-shortcode icon-plain  " data-animation="fadeIn" target="_blank"><i class="font-icon icon-pinterest2 medium plain" style="color:#0e76bc;" data-color="#0e76bc" data-hover-color=""></i></a></div><div class="icon-shortcode align-none"><a href="https://web.archive.org/web/20220702054929/http://dwommedia.tumblr.com/" class="icon-shortcode icon-plain  " data-animation="fadeIn" target="_blank"><i class="font-icon icon-social_tumblr medium plain" style="color:#0e76bc;" data-color="#0e76bc" data-hover-color=""></i></a></div><hr class="separator" style="background-color:#80a8cf;color:#80a8cf;height:1px;width:100%;"/><div class="be-button-wrap align-block block-center "><a class="be-shortcode mediumbtn be-button left-icon none   bg-animation-none" href="/web/20220702054929/http://www.csrmediagroup.com/contact" style="border-style: solid; border-width:0px; border-color: transparent;background-color: #0e76bc; color: #ffffff; " data-animation="fadeIn" data-bg-color="#0e76bc" data-hover-bg-color="#000000" data-color="#ffffff" data-hover-color="#ffffff" data-border-color="transparent" data-hover-border-color="transparent">CONTACT US</a></div></div></div></div></div></div>				</div> <!--  End Page Content -->
+									<div class="be-themes-comments be-row be-wrap">
+							<div id="comments">
+				<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/web/20220702054929/http://www.csrmediagroup.com/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://web.archive.org/web/20220702054929/http://www.csrmediagroup.com/wp-comments-post.php" method="post" id="commentform" class="comment-form"><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><textarea placeholder="Comment" id="comment" name="comment" cols="45" rows="15" aria-required="true"></textarea></p><p class="no-margin"><input id="author" name="author" type="text" value="" aria-required="true" placeholder="Name" required/></p>
+<p class="no-margin"><input id="email" name="email" type="text" value="" aria-required="true" placeholder="Email" required/></p>
+<p class="no-margin"><input id="url" name="url" type="text" value="" placeholder="Website"/></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Submit"/> <input type="hidden" name="comment_post_ID" value="3393" id="comment_post_ID"/>
+<input type="hidden" name="comment_parent" id="comment_parent" value="0"/>
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="8466ca5c4a"/></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="214"/></p></form>	</div><!-- #respond -->
+	</div><!-- #comments -->					</div> <!--  End Optional Page Comments -->
+							</section>
+		</div>
+	</div>				<footer id="footer" class="layout-wide">
+			<span class="footer-border "></span>
+			<div id="footer-wrap" class=" style1 be-wrap clearfix">
+				<div class="footer-left-area">				</div>
+				<div class="footer-center-area">					<div class="footer-content-inner-center">				                    <div class="ftr-link">
+<a href="/web/20220702054929/http://www.csrmediagroup.com/policy/">Privacy Policy</a>
+<span>/</span>
+ 
+<a href="/web/20220702054929/http://www.csrmediagroup.com/user/">User Agreement</a>
+</div>
+<p class="copy">Copyright © 2020 CSR media group Inc. All rights reserved.                					</div>				</div>
+				<div class="footer-right-area">				</div>
+			</div>
+		</footer> 	</div>
+	<div class="loader page-loader">
+	<div class="loader-style1-wrap"><div class="loader-style1-double-bounce1"></div><div class="loader-style1-double-bounce2"></div></div></div>	<a href="#" id="back-to-top" class="layout-wide"><i class="font-icon icon-arrow_carrot-up"></i></a>	</div>
+
+<input type="hidden" id="ajax_url" value="http://www.csrmediagroup.com/wp-admin/admin-ajax.php"/>
+	<input type="hidden" id="all_ajax_exclude_links" value=""/>
+<script>
+						var no_ajax_pages = [];
+					</script>	
+		    <div id="gallery" class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+		        <div class="pswp__bg"></div>
+
+		        <div class="pswp__scroll-wrap">
+
+		          <div class="pswp__container">
+					<div class="pswp__item"></div>
+					<div class="pswp__item"></div>
+					<div class="pswp__item"></div>
+		          </div>
+
+		          <div class="pswp__ui pswp__ui--hidden">
+
+		            <div class="pswp__top-bar">
+
+						<div class="pswp__counter"></div>
+
+						<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+						<button class="pswp__button pswp__button--share" title="Share"></button>
+
+						<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+						<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+						<div class="pswp__preloader">
+							<div class="pswp__preloader__icn">
+							  <div class="pswp__preloader__cut">
+							    <div class="pswp__preloader__donut"></div>
+							  </div>
+							</div>
+						</div>
+		            </div>
+
+
+					<!-- <div class="pswp__loading-indicator"><div class="pswp__loading-indicator__line"></div></div> -->
+
+		            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+			            <div class="pswp__share-tooltip">
+							<!-- <a href="#" class="pswp__share--facebook"></a>
+							<a href="#" class="pswp__share--twitter"></a>
+							<a href="#" class="pswp__share--pinterest"></a>
+							<a href="#" download class="pswp__share--download"></a> -->
+			            </div>
+			        </div>
+
+		            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+		            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+		            <div class="pswp__caption">
+		              <div class="pswp__caption__center">
+		              </div>
+		            </div>
+		          </div>
+
+		        </div>
+
+		    </div><script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-includes/js/comment-reply.min.js?ver=5.4.10"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/web.archive.org\/web\/20220702054929\/http:\/\/www.csrmediagroup.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.9"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/https://f.vimeocdn.com/js/froogaloop2.min.js?ver=5.4.10"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-content/themes/oshin/js/plugins.js?ver=5.4.10"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-content/themes/oshin/js/be-slider.js?ver=5.4.10"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-content/themes/oshin/js/jquery-ui-1.8.22.custom.min.js?ver=5.4.10"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-content/themes/oshin_child/js/script_v2.js?ver=5.4.10"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/https://maps.googleapis.com/maps/api/js?ver=5.4.10"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-content/themes/oshin_child/js/map_canada.js?ver=5.4.10"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-content/themes/oshin_child/js/map_usa.js?ver=5.4.10"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-content/themes/oshin/bb-press/bb-press.js?ver=5.4.10"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-content/plugins/be-page-builder/js/main-plugins.js?ver=5.4.10"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-content/plugins/be-page-builder/js/be-modules-plugin.js?ver=5.4.10"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-content/plugins/be-page-builder/js/opt_plugins/plugin-textRotator.js?ver=5.4.10"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-content/plugins/be-page-builder/js/opt_plugins/plugin-easyPieChart.js?ver=5.4.10"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-content/plugins/be-page-builder/js/opt_plugins/plugin-hoverdir.js?ver=5.4.10"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-content/plugins/be-page-builder/js/opt_plugins/plugin-typed.js?ver=5.4.10"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-content/plugins/be-page-builder/js/opt_plugins/plugin-countTo.js?ver=5.4.10"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-content/plugins/be-page-builder/js/opt_plugins/jquery.countdown.min.js?ver=5.4.10"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-content/plugins/be-page-builder/js/opt_plugins/plugin-magnificpopup.js?ver=5.4.10"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-content/plugins/be-page-builder/js/opt_plugins/plugin-backgroundcheck.js?ver=5.4.10"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-content/plugins/be-page-builder/js/opt_plugins/jquery.justifiedGallery.min.js?ver=5.4.10"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-includes/js/jquery/ui/accordion.min.js?ver=1.11.4"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-content/plugins/be-page-builder/js/be-modules-script.js?ver=5.4.10"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-content/plugins/be-page-builder/js/be-portfolio-layout.js?ver=5.4.10"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-includes/js/wp-embed.min.js?ver=5.4.10"></script>
+<script async="async" type="text/javascript" src="https://web.archive.org/web/20220702054929js_/http://www.csrmediagroup.com/wp-content/plugins/akismet/_inc/form.js?ver=4.1.6"></script>
+<!-- Option Panel Custom JavaScript -->
+<script>
+	//jQuery(document).ready(function(){
+			// });
+</script>
+<script>
+(function() {
+  var el = document.querySelector('.rotates');
+  if (!el) return;
+  var phrases = el.textContent.split('||').map(function(s) { return s.trim(); }).filter(Boolean);
+  if (phrases.length < 2) return;
+  var i = 0;
+  el.textContent = phrases[0];
+  el.style.transition = 'opacity 0.6s ease';
+  setInterval(function() {
+    el.style.opacity = '0';
+    setTimeout(function() {
+      i = (i + 1) % phrases.length;
+      el.textContent = phrases[i];
+      el.style.opacity = '1';
+    }, 600);
+  }, 4000);
+})();
+</script>
+</body>
+</html><!--
+     FILE ARCHIVED ON 05:49:29 Jul 02, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:28:12 Mar 24, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.954
+  exclusion.robots: 0.089
+  exclusion.robots.policy: 0.07
+  esindex: 0.02
+  cdx.remote: 23.598
+  LoadShardBlock: 157.721 (3)
+  PetaboxLoader3.datanode: 142.531 (4)
+  PetaboxLoader3.resolve: 190.227 (2)
+  load_resource: 245.825
+-->
